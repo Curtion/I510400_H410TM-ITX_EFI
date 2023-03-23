@@ -25,7 +25,7 @@
 1. 主板侧面HDMI接口需要自行对机箱侧边挖孔, 好在机箱是铝合金很好切割。
 2. 建议重新定制USB,删除`/EFI/OC/Kexts/USBToolBox.kext`和`EFI/OC/Kexts/UTBMap.kext`，然后重新[定制USB](https://apple.sqlsec.com/6-%E5%AE%9E%E7%94%A8%E5%A7%BF%E5%8A%BF/6-1/)。
 
-## 正常工作
+## 工作状态
 - [x] 核显正常
 - [x] 有线+无线网卡正常
 - [x] 蓝牙正常
