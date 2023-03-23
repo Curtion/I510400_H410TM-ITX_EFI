@@ -114,66 +114,50 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>
-				FQAAAA==
-				</data>
+				<data>FQAAAA==</data>
 				<key>model</key>
-				<string>ALC235</string>
+				<string>Comet Lake PCH-V cAVS</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				BwCbPg==
-				</data>
-				<key>AAPL,slot-name</key>
+				<key>#AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
+				<key>AAPL,ig-platform-id</key>
+				<data>BwCbPg==</data>
 				<key>device-id</key>
-				<data>
-				yJsAAA==
-				</data>
+				<data>mz4AAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con0-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con0-pipe</key>
+				<data>EgAAAA==</data>
 				<key>framebuffer-con0-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<data>AAgAAA==</data>
 				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-pipe</key>
+				<data>EgAAAA==</data>
 				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<data>AAgAAA==</data>
 				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-pipe</key>
+				<data>EgAAAA==</data>
 				<key>framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<data>AAgAAA==</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
+				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
-				<string>Intel CometLake-S GT2 [UHD Graphics 630]</string>
+				<string>Intel CoffeeLake-H GT2 [UHD Graphics 630]</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -459,11 +443,9 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data>
-			</data>
+			<data></data>
 			<key>Cpuid1Mask</key>
-			<data>
-			</data>
+			<data></data>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>MaxKernel</key>
@@ -485,9 +467,9 @@
 			<false/>
 			<key>AppleXcpmForceBoost</key>
 			<false/>
-			<key>CustomPciSerialDevice</key>
-			<false/>
 			<key>CustomSMBIOSGuid</key>
+			<false/>
+			<key>CustomPciSerialDevice</key>
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
@@ -553,7 +535,7 @@
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>17</integer>
+			<integer>1</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
@@ -609,11 +591,9 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data>
-			</data>
+			<data></data>
 			<key>PasswordSalt</key>
-			<data>
-			</data>
+			<data></data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -638,9 +618,7 @@
 				<key>LineControl</key>
 				<integer>3</integer>
 				<key>PciDeviceInfo</key>
-				<data>
-				/w==
-				</data>
+				<data>/w==</data>
 				<key>RegisterAccessWidth</key>
 				<integer>8</integer>
 				<key>RegisterBase</key>
@@ -932,31 +910,23 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>UIScale</key>
-				<data>
-				AQ==
-				</data>
+				<data>AQ==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
 				<key>rtc-blacklist</key>
-				<data>
-				</data>
+				<data></data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
 				<string>keepsyms=1 debug=0x100 igfxonln=1 igfxfw=2 igfxdvmt igfxrpsc=1 -cputsclock tlbto_us=0 vti=9 brcmfx-country=#a -v</string>
 				<key>csr-active-config</key>
-				<data>
-				/w8AAA==
-				</data>
+				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
-				<data>
-				</data>
+				<data></data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -979,10 +949,10 @@
 		</dict>
 		<key>LegacyOverwrite</key>
 		<false/>
-		<key>LegacySchema</key>
-		<dict/>
 		<key>WriteFlash</key>
 		<true/>
+		<key>LegacySchema</key>
+		<dict/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -994,15 +964,14 @@
 		<dict>
 			<key>AdviseFeatures</key>
 			<false/>
-			<key>MLB</key>
-			<string>C021483014NPHC1JC</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
+			<key>MLB</key>
+			<string>C021483014NPHC1JC</string>
 			<key>ProcessorType</key>
 			<integer>1541</integer>
 			<key>ROM</key>
-			<data>
-			</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1062,9 +1031,9 @@
 			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
-			<key>PointerPollMax</key>
-			<integer>0</integer>
 			<key>PointerPollMin</key>
+			<integer>0</integer>
+			<key>PointerPollMax</key>
 			<integer>0</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
@@ -1196,10 +1165,10 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
-			<key>UIScale</key>
-			<integer>-1</integer>
 			<key>UgaPassThrough</key>
 			<false/>
+			<key>UIScale</key>
+			<integer>-1</integer>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
